@@ -1,6 +1,7 @@
 #create the main python file
 import requests
 import streamlit
+import snowflake.connector
 streamlit.title('My Mum\'s New Healthy Diner')
     
 streamlit.header('Breakfast Favourites')
